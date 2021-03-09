@@ -6,7 +6,7 @@ import sys
 
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-IP = '192.168.1.8'
+IP = '127.0.0.1'
 PORT = 4444
 try:
     client.connect((IP, PORT))
