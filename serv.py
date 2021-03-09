@@ -2,7 +2,7 @@ import socket
 import threading
 import time
 
-LOCAL_IP = '192.168.1.8'
+LOCAL_IP = '127.0.0.1'
 PORT = 4444
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
